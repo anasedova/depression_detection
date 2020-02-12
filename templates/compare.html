@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8" />
+   <title>Compare</title>
+   <!-- import plugin script -->
+   <script src='static/Chart.min.js'></script>
+ </head>
+ <body style="background-color:powderblue;"><center>
+   <h1>Comparison</h1>
+   <!-- bar chart canvas element -->
+   <canvas id="myChart" width="600" height="400"></canvas>
+
+   <script>
+     // Global parameters:
+     // do not resize the chart canvas when its container does (keep at 600x400px)
+      Chart.defaults.global.responsive = false;
+
+     // get bar chart canvas
+     var ctx = document.getElementById("myChart").getContext("2d");
+
+     // create the chart using the chart canvas
+     var myChart = new Chart(ctx, {
+       type: 'radar',
+       data: {
+
+   labels: ['Afinn Score', 'Sentiment Analysis', 'Swear Word Usage','Absolute Word Usage','Self-Centrism','Total Mark'],
+   datasets: [{
+       data: {{data_you}},
+       label: "You",
+       borderColor: "#3e95cd",
+       fill: false
+     }, {
+       data: [0.1, 0.4, 0.0004, 0.005, 0.05, 3],
+       label: "Hamlet",
+       borderColor: "#8e5ea2",
+       fill: false
+     }, {
+       data: [-0.53, 0.36, 0.9, 1.2, 7.1, 4],
+       label: "Walter White",
+       borderColor: "#3cba9f",
+       fill: false
+     }, {
+       data: [-1.6, 0.31, 0.023, 0.023, 0.038, 4],
+       label: "Eric Cartman",
+       borderColor: "#e8c3b9",
+       fill: false
+     }, {
+       data: [0.48, 0.41, 0, 1.5, 4.2, 2],
+       label: "Donald Trump",
+       borderColor: "#c45850",
+       fill: false
+     }
+   ]
+ },
+     });
+   </script>
+
+ </center></body>
+</html>

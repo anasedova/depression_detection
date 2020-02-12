@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+
+   <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+
+</head>
+ <body style="background-color:powderblue;">
+   <header><center>
+     <div class="container">
+         <h1>
+             <p></p>
+           Do you suffer from depression? Find out by using the Therapy Bot Analysis!
+         </h1>
+       <strong><nav>
+           <li><a href="{{ url_for('textInput') }}">Start Analysis</a></li>
+           <li><a href="{{ url_for('about') }}">How does it work?</a></li>
+           <p></p>
+       </nav></strong>
+     </div>
+       <p></p>
+       <p></p>
+       <img src="{{ url_for("static", filename="images/depressionArt.png")}}" alt="404 Image Not Found!" width="500" height="333"/>
+   </center></header>
+
+{% block content %}
+
+         <h1><center> Disclaimer: </center></h1>
+   <p><center> This tool can't replace the diagnosis of a real therapist. It is merely an aid for you to find out, whether you are showing symptoms of depression</center></p>
+
+
+{% endblock %}
+
+</body>
+</html>

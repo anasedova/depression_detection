@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset="utf-8">
+ <title>About Therapy Bot</title>
+</head>
+<body style="background-color:powderblue;"><center>
+ {% block content %}
+   <h1>About TherapyBot</h1>
+ <p> Therapy Bot tries to diagnose depressive symptoms using machine learning and word counting based text analysis.</p>
+ <p> Most online diagnose tools use a single choice test. This program uses open questions to get more accurate results and to perform a deeper analysis.</p>
+ <p>We try to get a diagnosis not by merely analysing the answer itself but also the linguistic structure of it. Studies (e.g. Al-Mosaiwi 2018) have demonstrated the effectiveness of this type of text analysis. Therefore we will analyse the general positiveness of the answers, count the amount of swear and absolute words and the usage of pronouns</p>
+ <p>We can measure the positiveness of a text by counting the adjectives and give + points for positive adjectives and - points for adjectives, which have a negative meaning. F.e. "good" would add +3, "bad" would add -3. The sum of all those values is called afinn score. By calculating that we hope to find out how sad the text author is and how many negative thoughts he has without explicitly asking for it. </p>
+ <p>Another example: Instead of asking "how many friends do you have?" which could lead to unhonest answers we ask something totally different and calculate the times that the user mentiones himself in that answer. This way can lead us to know how much he is thinking of other people. If he rarely uses third person pronouns then it could be the case that he is a bit isolated from other people and lack meaningful connections to others</p>
+{% endblock %}
+</center></body>
+</html>

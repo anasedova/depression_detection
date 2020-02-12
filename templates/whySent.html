@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>About Pycho-Bot</title>
+ </head>
+ <body><center><body style="background-color:powderblue;">
+   {% block content %}
+     <h1>Sentiment Analysis</h1>
+   <p>Studies (f.e. Al-Mosaiwi 2018) have shown, that depressive symptoms can be diagnosed quite accurately by analysing text. One core symptom of depressive disorder is the constant presence of negative thoughts, even when performing certain tasks. Those thoughts can be measured by the sentiment analysis, which determins, whether a certain text is negative or positive. </p>
+   <p>We can measure the positiveness of a text by counting the adjectives and give + points for positive adjectives and - points for adjectives, which have a negative meaning. F.e. "good" would add +3, "bad" would add -3. The sum of all those values is called afinn score. By calculating that we hope to find out how sad the text author is and how many negative thoughts he has without explicitly asking for it. </p>
+   {% endblock %}
+ </center></body>
+</html>

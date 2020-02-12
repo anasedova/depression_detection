@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+
+
+.container {
+ width: 60%;
+ background-color: #ddd;
+ margin: auto;
+}
+
+.skills {
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: color;
+}
+
+.html {width: {{relation}}%; background-color: {{bar_color}};}
+</style>
+  </head>
+      <body style="background-color:{{color}};">
+      <h1><center><font color="blue">Evaluation</font></center></h1>
+          <h2><center>Sentiment Analysis:</center></h2>
+          <p><center>{{afinn}}</center></p>
+          <p><center>{{sentimen_analysis}}</center></p>
+          <li><center><a href="{{ url_for('whySent') }}">Why are we measuring this?</a></center></li>
+          <h2><center>Swear Word Usage:</center></h2>
+          <p><center>{{swear}}</center></p>
+          <li><center><a href="{{ url_for('whySwear') }}">Why are we measuring this?</a></center></li>
+          <h2><center>Absolutism:</center></h2>
+          <p><center>{{absolute}}</center></p>
+          <li><center><a href="{{ url_for('whyAbs') }}">Why are we measuring this?</a></center></li>
+          <h2><center>Self-centrism:</center></h2>
+          <p><center>{{first_person_pronouns}}</center></p>
+          <li><center><a href="{{ url_for('why') }}">Why are we measuring this?</a></center></li>
+           <p></p>
+           <p></p>
+           <p></p>
+          <h2><center><font color="blue">Result: {{depression_mark}}</font></center></h2>
+      <p><center><font size="4"><font color="green">{{mark}}</font></font></center></p>
+                           <div class="container">
+                       <div class="skills html"></div>
+                                   </div>
+                                   <p></p>
+          <li><center><a href="{{ url_for('index') }}">Back to start</a></center></li>
+          <p><center><font size="4">Curious how the stats are for your favourite characters? Compare your results to the ones of characters of popular literature and movies!</font></center></p>
+          <li><center><a href="{{ url_for('compare') }}">Compare to literature characters</a></center></li>
+      </body>
+</html>

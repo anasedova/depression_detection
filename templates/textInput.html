@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>Analysis</title>
+ </head style="background-color:powderblue;">
+   <center>
+   <h1>Questionaire</h1>
+      <p> Please answer a few questions, then click on "analyse"</p>
+   <p> By getting text input from you we hope to find out how you are feeling and whether you are showing symptoms of depression.</p>
+ <body style="background-color:powderblue;">
+   {% block content %}
+   <form action="{{ url_for('submit') }}" method="post">
+       <p> First type in your name"</p>
+       <textarea rows="1" cols="20" name="name"></textarea>
+       <p> Tell me about your day. How has it been?</p>
+       <textarea rows="20" cols="100" name="day"></textarea>
+       <p> Tell me about the day before that? Has it been worse or better?</p>
+       <textarea rows="20" cols="100" name="previousDay"></textarea>
+       <p> If you could turn back time, what would you change?</p>
+       <textarea rows="20" cols="100" name="time"></textarea>
+       <p> What would you expect from the future?</p>
+       <textarea rows="20" cols="100" name="future"></textarea>
+       <p></p>
+       <input type="submit" value="Analyse">
+   </form>
+   {% endblock %}
+ </center></body>
+</html>
