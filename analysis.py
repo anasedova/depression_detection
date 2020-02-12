@@ -18,7 +18,7 @@
 # bsolute_counter : number of absolute words
 # swear_counter : number of swear words
 # afinn_score : afinn score
-# sentiment : sentiment score
+# sentiment : sentiment score 
 ########################################################################################################################
 
 from afinn import Afinn
