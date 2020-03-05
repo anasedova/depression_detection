@@ -8,8 +8,15 @@ More detailed information you could find in the [paper](https://github.com/agsed
 
 ## [main.py](https://github.com/agsedova/depression_detection/blob/master/main.py)
 
+
+
 ## [analysis.py](https://github.com/agsedova/depression_detection/blob/master/analysis.py)
-The main sript for the text input; is calles from main.py 
+The main sript for the text input; is called from main.py. Can be also called individually:
+
+`analysis.py <path to the input file with text to be analysed>`
+
+`analysis.py data\reddit_neg`
+
 
 ### [Data](https://github.com/agsedova/depression_detection/tree/master/data)
 
