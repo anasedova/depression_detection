@@ -6,6 +6,13 @@ Depression is a very serious medical illness that may lead to severe outcomes, s
 
 More detailes are to be found in the [paper](https://github.com/agsedova/depression_detection/blob/master/Depression_recognition_Schinke_Sedova.pdf).
 
+# Voice Analysis
+
+First of all, we tried to do the voice analysis. Our scripts are in folder [audio_analysis]
+(https://github.com/agsedova/depression_detection/tree/master/audio_analysis)
+
+# Text Analysis
+
 ## [main.py](https://github.com/agsedova/depression_detection/blob/master/main.py)
 
 The main file to run the application.
