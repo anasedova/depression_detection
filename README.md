@@ -17,14 +17,14 @@ Can be also called separately on its own:
     analysis.py <path to the input file with text to be analysed>
     analysis.py data\reddit_neg
 
-### [Data](https://github.com/agsedova/depression_detection/tree/master/data)
+## [Data](https://github.com/agsedova/depression_detection/tree/master/data)
 
 Manually collected different data which we use for testing our app (for more detailed information please look at the paper)
 
-### [Templates](https://github.com/agsedova/depression_detection/tree/master/templates), [static](https://github.com/agsedova/depression_detection/tree/master/static), [images](https://github.com/agsedova/depression_detection/tree/master/images)
+## [Templates](https://github.com/agsedova/depression_detection/tree/master/templates), [static](https://github.com/agsedova/depression_detection/tree/master/static), [images](https://github.com/agsedova/depression_detection/tree/master/images)
 Files for the front-end. 
 
-### [Sentiment_analysis](https://github.com/agsedova/depression_detection/tree/master/Sentiment_analysis)
+## [Sentiment_analysis](https://github.com/agsedova/depression_detection/tree/master/Sentiment_analysis)
 Here are all the files which are needed to perform the sentiment analysis with LSTM.
 
 **data** : here are the data which we used as training, development and tests set as well as data which we used for demonstrating our app during the final presentation (answers.txt)
