@@ -33,4 +33,4 @@ Here are all the files which are needed to perform the sentiment analysis with L
 
 **sent_predict.py** : sentiment prediction with the trained model on the new data
 
-You don't need to train the model from scratch - we have already done it! If you want to use it, please download it [here](https://www.icloud.com/iclouddrive/07l-mKo0NRemSlP5AQQY__HgQ#trained_model) and put the file in Sentiment_analysis folder
+You don't need to train the model from scratch - we have already done it! If you want to use it, please download it [here](https://www.icloud.com/iclouddrive/07l-mKo0NRemSlP5AQQY__HgQ#trained_model) and put the file in [Sentiment_analysis folder](https://github.com/agsedova/depression_detection/tree/master/Sentiment_analysis).
