@@ -4,11 +4,11 @@ Here is the source code for the Depression Detection Project (Course "Affective 
 
 The main files for analysing the text input 
 
-### [Data](https://github.com/agsedova/depression_detection/tree/master/data), [static](https://github.com/agsedova/depression_detection/tree/master/static), [images](https://github.com/agsedova/depression_detection/tree/master/images)
+### [Data](https://github.com/agsedova/depression_detection/tree/master/data)
 
 Manually collected different data which we use for testing our app (for more detailed information please look at the paper)
 
-### [Templates](https://github.com/agsedova/depression_detection/tree/master/templates)
+### [Templates](https://github.com/agsedova/depression_detection/tree/master/templates), [static](https://github.com/agsedova/depression_detection/tree/master/static), [images](https://github.com/agsedova/depression_detection/tree/master/images)
 Files for the front-end. 
 
 ### [Sentiment_analysis](https://github.com/agsedova/depression_detection/tree/master/Sentiment_analysis)
