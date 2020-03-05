@@ -4,4 +4,18 @@ Here is the source code for the Depression Detection Project (Course "Affective 
 
 The main files for analysing the text input 
 
+### Data
+
+Manually collected different data which we use for testing our app (for more detailed information please look at the paper)
+
+### Templates
+Files for the front-end. 
+
+### Sentiment_analysis
+Here are all the files which are needed to perform the sentiment analysis with LSTM.
+
+**data** : here are the data which we used as training, development and tests set as well as data which we used for demonstrating our app during the final presentation (answers.txt)
+**sent_train.py** : training our LSTM Model
+**sent_predict.py** : sentiment prediction on the new data
+
 We have already trained the model for sentiment analysis with LSTM. If you want to use it, please download it [here](https://www.icloud.com/iclouddrive/07l-mKo0NRemSlP5AQQY__HgQ#trained_model) and put the file in Sentiment_analysis folder
