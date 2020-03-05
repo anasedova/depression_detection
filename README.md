@@ -13,8 +13,8 @@ More detailes are to be found in the [paper](https://github.com/agsedova/depress
 ## [analysis.py](https://github.com/agsedova/depression_detection/blob/master/analysis.py)
 The main sript for the text input; is called from main.py. Can be also called individually:
 
-    `analysis.py <path to the input file with text to be analysed>`
-    `analysis.py data\reddit_neg`
+    analysis.py <path to the input file with text to be analysed>
+    analysis.py data\reddit_neg
 
 
 ### [Data](https://github.com/agsedova/depression_detection/tree/master/data)
@@ -29,8 +29,8 @@ Here are all the files which are needed to perform the sentiment analysis with L
 
 **data** : here are the data which we used as training, development and tests set as well as data which we used for demonstrating our app during the final presentation (answers.txt)
 
-**sent_train.py** : training our LSTM Model
+**sent_train.py** : training the LSTM Model
 
-**sent_predict.py** : sentiment prediction on the new data
+**sent_predict.py** : sentiment prediction with the trained model on the new data
 
-We have already trained the model for sentiment analysis with LSTM. If you want to use it, please download it [here](https://www.icloud.com/iclouddrive/07l-mKo0NRemSlP5AQQY__HgQ#trained_model) and put the file in Sentiment_analysis folder
+You don't need to train the model from scratch - we have already done it! If you want to use it, please download it [here](https://www.icloud.com/iclouddrive/07l-mKo0NRemSlP5AQQY__HgQ#trained_model) and put the file in Sentiment_analysis folder
