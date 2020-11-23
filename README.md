@@ -1,6 +1,6 @@
 # Depression Detection project
 
-Here is the source code for the Depression Detection Project (Course "Affective Computing", WiSe 19/20, LMU)
+Here is the source code for the Depression Detection Project (Course "Affective Computing" in Tawny GmbH, WiSe 19/20, LMU)
 
 Depression is a very serious medical illness that may lead to severe outcomes, such as mental breakdown and even suicide. However, it is not only very serious, but also quite common today. It is even often the case that people are depressed without ever realising it and, therefore, do not seek help and treatment from a professional. This study aims at helping to discover symptoms of depression based on what a person says and what a person writes. The main focus lies on text analysis with different methods, such as analysis of the vocabulary a person uses as well as sentiment analysis. The proposed algorithm was tested on the data sets manually collected from Reddit and Shakespeare’s tragedy Hamlet. Also we realised our algorithm as a web application in order to give an opportunity to all the people to test themselves, which could be a first step on the path to recovery.
 
